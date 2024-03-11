@@ -1,0 +1,51 @@
+.areaCards {
+    display: flex;
+    flex-direction: column;
+}
+#card:hover {
+    background-color: #feb633;
+}
+.cardLight {
+    border: 1px solid #8a8fa336;
+    padding: 90px 25px;
+    text-align: left;
+}
+.cardDark {
+    border: 1px solid #8a8fa336;
+    padding: 90px 25px;
+    text-align: left;
+}
+.cardLight h4 {
+    margin: 0;
+    font-size: 1.3em;
+    color: black;
+}
+
+.cardDark h4 {
+    margin: 0;
+    font-size: 1.3em;
+    color: white;
+}
+.cardLight p {
+    color: #8A8FA3;
+}
+.cardDark p {
+    color: #9F9F9F;
+}
+.cardTitulo p {
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px){
+    .areaCards {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .cardLight {
+        max-width: 250px;
+    }
+    .cardDark {
+        max-width: 250px;
+    }
+}

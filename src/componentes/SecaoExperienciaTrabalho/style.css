@@ -1,0 +1,39 @@
+.expLight {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px;
+    background-color: #F6F8FC;
+}
+.expDark {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px;
+    background-color: #393838;
+}
+.tituloExpLight {
+    color: #32333C;
+}
+.paragrafoExpLight {
+    color: #8A8FA3;
+}
+.tituloExpDark {
+    color: #CCCCCC;
+}
+.paragrafoExpDark {
+    color: #9F9F9F;
+}
+.txtExp {
+    padding: 10px;
+}
+.txtExp h3 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.linha {
+    margin: 15px auto;
+    background-color: #FEB633;
+    height: 5px;
+    width: 100px;
+}

@@ -1,0 +1,61 @@
+.rodapeLight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px 0px 20px;
+    background-color: #FFFFFF;
+    color: #8E94AC;
+}
+.rodapeDark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px 0px 20px;
+    background-color: #252525;
+    color: #7A7E8E;
+}
+
+.rodape p a {
+    color: #FBD214;
+    text-decoration: none;
+    font-weight: bold;
+}
+.rodape p a:hover {
+    text-decoration: underline;
+}
+.rodapeDark p a {
+    color: #FBD214;
+    text-decoration: none;
+    font-weight: bold;
+}
+.rodapeDark p a:hover {
+    text-decoration: underline;
+}
+
+.paragrafoDark {
+    color: #878A9A;
+}
+.paragrafoLight {
+    color: #8A8FA3
+}
+
+.secaoIcons {
+    display: flex;
+    flex: 1 1 auto;
+    gap: 15px;
+    justify-content: center;
+}
+.icon {
+    max-width: 30px
+}
+
+@media screen and (min-width: 376px) {
+    .icon {
+        max-width: 50px;
+    }
+    .limitaRodape{
+        max-width: 500px;
+    }
+}
